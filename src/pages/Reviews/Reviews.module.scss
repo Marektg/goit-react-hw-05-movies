@@ -1,0 +1,22 @@
+.reviewSection {
+  width: auto;
+  padding: 5px;
+  margin: 5px;
+  & ul {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    row-gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+  }
+}
+
+.reviewCard {
+  width: 90%;
+  text-align: center;
+  border: solid 1px gray;
+  border-radius: 10px;
+  padding-top: 10px;
+}

@@ -1,0 +1,56 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: 450px auto;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  grid-template-rows: auto;
+  grid-template-areas: "a b" "c c";
+  padding: 10px;
+  justify-content: center;
+}
+
+.item1 {
+  grid-area: a;
+}
+.item1 button {
+  display: block;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 15px;
+}
+.item1 img {
+  margin-top: 5px;
+}
+
+.information {
+  grid-area: b;
+  margin-top: 25px;
+}
+
+.extraInfo {
+  grid-area: c;
+  text-align: center;
+}
+.extraInfo ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+}
+.extraInfo ul li {
+  border: solid 1px grey;
+  padding: 5px;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: whitesmoke;
+}
+.extraInfo ul li:hover {
+  background-color: antiquewhite;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}/*# sourceMappingURL=MovieDetailsPage.module.css.map */

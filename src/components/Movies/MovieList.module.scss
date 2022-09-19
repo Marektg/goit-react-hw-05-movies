@@ -1,0 +1,29 @@
+.movie__item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 90%;
+  border: solid 1px gray;
+  border-radius: 20px;
+  & img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5px;
+    border-radius: 15px;
+  }
+}
+.movie__list {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}

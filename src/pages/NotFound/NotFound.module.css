@@ -1,0 +1,15 @@
+.main {
+  text-align: center;
+}
+
+.bold {
+  font-size: 64px;
+}
+
+.home {
+  text-decoration: none;
+  color: #157FE9;
+}
+.home:hover, .home:focus {
+  color: #D5428C;
+}/*# sourceMappingURL=NotFound.module.css.map */
